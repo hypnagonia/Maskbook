@@ -30,7 +30,6 @@ import { TraderPluginDefine } from './Trader/define'
 import { Flags } from '../utils/flags'
 plugins.add(GitcoinPluginDefine)
 plugins.add(RedPacketPluginDefine)
-plugins.add(PollsPluginDefine)
 plugins.add(FileServicePluginDefine)
 if (Flags.poll_enabled) plugins.add(PollsPluginDefine)
 if (Flags.trader_enabled) plugins.add(TraderPluginDefine)
